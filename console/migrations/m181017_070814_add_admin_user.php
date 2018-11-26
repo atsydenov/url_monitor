@@ -10,6 +10,8 @@ class m181017_070814_add_admin_user extends Migration
 {
     /**
      * {@inheritdoc}
+     * @return bool|void
+     * @throws \yii\base\Exception
      */
     public function safeUp()
     {
